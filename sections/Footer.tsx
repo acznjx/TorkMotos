@@ -38,7 +38,13 @@ export default function Footer() {
               Referência em mecânica especializada e venda de motos de alta performance. Paixão por duas rodas e compromisso com sua segurança.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-[#1a1a1a] flex items-center justify-center hover:bg-[#E30613] transition-all duration-300">
+              {/* LINK DO INSTAGRAM ADICIONADO ABAIXO */}
+              <a 
+                href="https://www.instagram.com/torkmotos71/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-[#1a1a1a] flex items-center justify-center hover:bg-[#E30613] transition-all duration-300"
+              >
                 <FaInstagram />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-[#1a1a1a] flex items-center justify-center hover:bg-[#E30613] transition-all duration-300">

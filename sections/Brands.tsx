@@ -3,23 +3,22 @@
 import Image from "next/image";
 
 export default function Brands() {
-  // Caminhos apontando para sua pasta /public/image/brands/
   const motoBrands = [
-    { name: "Honda", src: "/image/brands/honda.png" },
-    { name: "Yamaha", src: "/image/brands/yamaha.png" },
-    { name: "Kawasaki", src: "/image/brands/kawasaki.png" },
-    { name: "BMW", src: "/image/brands/bmw.png" },
-    { name: "Suzuki", src: "/image/brands/suzuki.png" },
-    { name: "Triumph", src: "/image/brands/triumph.png" },
+    { name: "Honda", src: "https://i.imgur.com/DxNtCDu.png" },
+    { name: "Yamaha", src: "https://i.imgur.com/iHrqA65.png" },
+    { name: "Kawasaki", src: "https://i.imgur.com/UBAcT2Y.png" },
+    { name: "BMW", src: "https://i.imgur.com/n8Zkpey.png" },
+    { name: "Suzuki", src: "https://i.imgur.com/jz8QBqD.png" },
+    { name: "Triumph", src: "https://i.imgur.com/ziHOyDU.png" },
   ];
 
   const accessoryBrands = [
-    { name: "LS2", src: "/image/brands/ls2.png" },
-    { name: "Alpinestars", src: "/image/brands/alpinestars.png" },
-    { name: "Pirelli", src: "/image/brands/pirelli.png" },
-    { name: "Mobil", src: "/image/brands/mobil.png" },
-    { name: "Norisk", src: "/image/brands/norisk.png" },
-    { name: "Motul", src: "/image/brands/motul.png" },
+    { name: "Alpinestars", src: "https://i.imgur.com/oumjKF4.png" },
+    { name: "LS2", src: "https://i.imgur.com/AlTbO19.png" },
+    { name: "Pirelli", src: "https://i.imgur.com/AQ3TirX.png" },
+    { name: "Mobil", src: "https://i.imgur.com/Tn17iuh.png" },
+    { name: "Norisk", src: "https://i.imgur.com/0dWU7ki.png" },
+    { name: "Motul", src: "https://i.imgur.com/iVe5Ct9.png" },
   ];
 
   return (
@@ -53,6 +52,7 @@ export default function Brands() {
                     src={brand.src}
                     alt={brand.name}
                     fill
+                    sizes="(max-width: 768px) 50vw, 15vw"
                     className="object-contain opacity-70 grayscale brightness-200 group-hover:opacity-100 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-500"
                   />
                 </div>
@@ -77,6 +77,7 @@ export default function Brands() {
                     src={brand.src}
                     alt={brand.name}
                     fill
+                    sizes="(max-width: 768px) 50vw, 15vw"
                     className="object-contain opacity-70 grayscale brightness-200 group-hover:opacity-100 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-500"
                   />
                 </div>
