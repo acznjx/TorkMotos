@@ -13,7 +13,7 @@ export default function About() {
             
             {/* Imagem quase original, apenas levemente mais escura para o texto/layout brilhar */}
             <Image
-              src="https://i.imgur.com/FAn9p51.jpeg" 
+              src="https://i.imgur.com/3UkKebR.jpeg" 
               alt="Oficina Tork Motos"
               width={600}
               height={400}

@@ -69,7 +69,7 @@ export default function Footer() {
             <h4 className="text-lg font-bold uppercase italic mb-6 border-l-4 border-[#E30613] pl-3">Contato</h4>
             <ul className="space-y-4 text-gray-500 text-sm">
               <li className="flex items-center gap-3">
-                <FaWhatsapp className="text-[#E30613]" /> (51) 99999-9999
+                <FaWhatsapp className="text-[#E30613]" /> (51) 51 9 9439-3900
               </li>
               <li>contato@torkmotos.com.br</li>
               <li>Av. Dorival Cândido Luz de Oliveira, 3905</li>
@@ -90,7 +90,7 @@ export default function Footer() {
         {/* Copyright Final */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-600 uppercase tracking-widest font-medium">
           <p>© 2024 Tork Motos - Todos os direitos reservados</p>
-          <p>Desenvolvido por dEx</p>
+          <p>Desenvolvido por Ana</p>
         </div>
       </div>
     </footer>

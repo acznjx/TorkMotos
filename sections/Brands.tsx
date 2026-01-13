@@ -25,15 +25,15 @@ export default function Brands() {
     <section id="marcas" className="bg-[#0a0a0a] py-24 px-6 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         
-        {/* Título Estilo Veloz */}
+        {/* Título em uma única linha */}
         <div className="flex flex-col items-center mb-24">
-          <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter italic text-white text-center leading-none">
-            AS MELHORES <br />
-            <span className="text-[#E30613] inline-flex flex-col">
-              MARCAS
-              <span className="h-2 w-full bg-[#E30613] mt-2" style={{ clipPath: "polygon(0 0, 100% 0, 95% 100%, 0 100%)" }}></span>
-            </span>
+          <h2 className="text-3xl md:text-6xl font-black uppercase tracking-tighter italic text-white text-center whitespace-nowrap">
+            AS MELHORES <span className="text-[#E30613]">MARCAS</span>
           </h2>
+          <div 
+            className="h-2 w-48 bg-[#E30613] mt-4" 
+            style={{ clipPath: "polygon(5% 0, 100% 0, 95% 100%, 0 100%)" }}
+          ></div>
         </div>
 
         {/* Grupo 1: Motos */}
